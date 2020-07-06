@@ -1,0 +1,124 @@
+.c--image {
+	position: relative;
+	width: 100%;
+}
+.c-img {
+	background: no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	background-image: url(http://wpdemo.archiwp.com/consultax/wp-content/uploads/sites/2/2019/04/Contact.jpg);
+}
+.breadcrum-box h1 {
+	font-size: 30px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	line-height: 1.2;
+	margin: 0 0 20px;
+}
+.breadcrumbs {
+	margin-bottom: 0;
+	z-index: 999;
+}
+.breadcrum-box li {
+	display: inline-block;
+	text-transform: capitalize;
+}
+.breadcrum-box li a {
+	color: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	margin-bottom: 0;
+	z-index: 99;
+}
+.breadcrum-box {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.breadcrum-box .active:before {
+	content: "";
+	font-family: FontAwesome;
+	color: #fff;
+	margin: 0 8px;
+}
+.breadcrum-box .active {
+	color: #f26522;
+	z-index: 99;
+}
+.breadcrum-box .row {
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-box-align: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	min-height: 200px;
+}
+.bg-light {
+	background: #ccc;
+}
+.text-center {
+	text-align: center !important;
+}
+.site-section-heading {
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	position: relative;
+	font-size: 2.5rem;
+	font-family: Dosis, sans-serif;
+}
+.text-black {
+	color: #000 !important;
+}
+.bg-white {
+    background-color: #fff !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+}
+.h4 {
+	color: #000;
+	font-size: 1.5rem;
+}
+.form-control {
+	height: 43px;
+	border-radius: 30px;
+	font-family: Dosis, sans-serif;
+}
+.form-control:focus {
+	border-color: #32dbc6;
+}
+.btn-primary {
+	color: #212529;
+	background-color: #f8aa45;
+    border-color: #f8aa45;
+    transition: linear 0.3s;
+    border-radius: 50px;
+}
+.bg-white p {
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    line-height: 25px;
+    color: #4d4d4d;
+}
+.bg-white p a{
+    text-decoration: none;
+    color: #f8aa45;
+}
+.btn-primary:hover{
+    background-color: #f26522;
+    border-color: #f8aa45;
+}
+@media (min-width: 768px) {
+	.site-section {
+		padding: 5em 0;
+	}
+	.site-section-heading {
+		font-size: 3rem;
+	}
+}
